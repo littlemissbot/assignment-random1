@@ -1,4 +1,4 @@
-### Loop Assisgnment
+## Loop Assisgnment
 The challenge is simple: Let's create a small one-page demo page. We provide you with a PSD and a JSON file and you return a static HTML template.
 
 Please note that we're aware it’s a very simplistic design and it’s missing some important things like e.g. responsive states. The idea is to see how a front end developer can deal with that and fill the gaps.
@@ -26,25 +26,34 @@ Some things to mention:
 - It uses a default pagination, so with page and limit you can navigate through the team members, e.g. page=2 and limit=7 would return member 8 to 14​
 - With the duty parameter you can filter to only get crew members with this duty​​
 
-#### How to install and run the project
+## Set Up
+
+### How to install and run the project
 The project is initiziated using npm. To run this project in development mode you will require following softwares:
 1. NODE : It is a Javascript engine which helps execute Javascript code outside of a web browser.
+
 2. NPM : Mostly comes with node installer, is a package manager for Javascript. It pairs nicely with module bundler Webpack.
 
-##### Commands to start dev server
-Step 1. Run command to first install all package dependencies
+### Commands to start dev server
+Below are the steps :
+1. Run command to first install all package dependencies
 ```npm install```
 
-Step 2. Run command to start development server
+2. Run command to start development server
 ```npm run serve```
 
-Step 3. Server gets created in port 3000 and it automatically serves the project url http://localhost:3000 in browser.
+3. Server gets created in port 3000 and it automatically serves the project url http://localhost:3000 in browser.
 
-##### Commands to build for production
-Step 1. Run command to first install all package dependencies
+### Commands to build for production
+Below are the steps :
+1. Run command to first install all package dependencies
 ```npm install```
 
-Step 2. Run command to build files
+2. Run command to build files
 ```npm run build```
 
-Step 3. All build files are generated inside a ./dist folder. The files can be served using any live server or you can directly open ./dist/index.html file in a browser. \*Note: the dist build files are already included in this codebase.
+3. All build files are generated inside a ./docs folder. The files can be served using any live server or you can directly open ./docs/index.html file in a browser. \*Note: the docs build files are already included in this codebase.
+
+## DEMO
+
+Demo available here : https://littlemissbot.github.io/assignment-random1/
